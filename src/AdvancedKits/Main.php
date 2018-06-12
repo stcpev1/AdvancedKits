@@ -23,7 +23,7 @@ class Main extends PluginBase{
     public $langManager;
 
     public function onEnable(){
-        @mkdir($this->getDataFolder()."cooldowns/");
+        @mkdir($this->getDataFolder()."cooldowns");
         $this->saveDefaultConfig();
         $this->loadKits();
         $this->economy = new EconomyManager($this);
