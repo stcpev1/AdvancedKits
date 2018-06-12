@@ -1,6 +1,6 @@
 <?php
 
-namespace  AdvancedKits;
+namespace AdvancedKits;
 
 use AdvancedKits\economy\EconomyManager;
 use AdvancedKits\lang\LangManager;
