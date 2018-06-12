@@ -12,10 +12,10 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
 
-    /**@var kit[,]*/
-    public $kits = [,];
-    /**@var kit[,]*/
-    public $hasKit = [,];
+    /**@var kit[]*/
+    public $kits = [];
+    /**@var kit[]*/
+    public $hasKit = [];
     /**@var EconomyManager*/
     public $economy;
     public $permManager = false;
