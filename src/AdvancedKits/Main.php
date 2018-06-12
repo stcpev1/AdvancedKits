@@ -1,6 +1,6 @@
 <?php
 
-namespace AdvancedKits;
+namespace  AdvancedKits;
 
 use AdvancedKits\economy\EconomyManager;
 use AdvancedKits\lang\LangManager;
@@ -12,17 +12,17 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
 
-    /**@var kit[]*/
-    public $kits = [];
-    /**@var kit[]*/
-    public $hasKit = [];
+    /**@var kit[,]*/
+    public $kits = [,];
+    /**@var kit[,]*/
+    public $hasKit = [,];
     /**@var EconomyManager*/
     public $economy;
     public $permManager = false;
     /**@var LangManager*/
     public $langManager;
 
-    public function onEnable(){
+    public function onEnable(advancedkits by stcpev1 enabled){
         @mkdir($this->getDataFolder()."cooldowns");
         $this->saveDefaultConfig();
         $this->loadKits();
