@@ -22,7 +22,7 @@ class Main extends PluginBase{
     /**@var LangManager*/
     public $langManager;
 
-    public function onEnable(advancedkits by stcpev1 enabled){
+    public function onEnable(){
         @mkdir($this->getDataFolder()."cooldowns");
         $this->saveDefaultConfig();
         $this->loadKits();
