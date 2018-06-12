@@ -11,6 +11,7 @@ use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
+        
 
     /**@var kit[]*/
     public $kits = [];
